@@ -1,7 +1,7 @@
 {% set name = "spylon" %}
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 {% set hashtype = "md5" %}
-{% set hash = "eaf338a8daabb4a86bc825243fb31ce5" %}
+{% set hash = "53490a409a40132fa37ae1722276bbee" %}
 
 package:
   name: {{ name }}
@@ -15,6 +15,9 @@ source:
 build:
   number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - pyspark_yarn_client_conda=spylon.spark.yarn_launcher:pyspark_conda_yarn_client
+    - pyspark_yarn_cluster_conda=spylon.spark.yarn_launcher:pyspark_conda_yarn_cluster
 
 requirements:
   build:
@@ -25,11 +28,13 @@ requirements:
     - python
     - findspark
     - pandas
+    - pyyaml
 
 test:
   imports:
     - spylon
     - spylon.spark
+    - spylon.spark.yarn_launcher
 
 about:
   home: https://github.com/MaxPoint/spylon
