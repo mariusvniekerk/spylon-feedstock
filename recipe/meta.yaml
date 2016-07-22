@@ -1,7 +1,7 @@
 {% set name = "spylon" %}
-{% set version = "0.2.0" %}
-{% set hashtype = "md5" %}
-{% set hash = "53490a409a40132fa37ae1722276bbee" %}
+{% set version = "0.2.1" %}
+{% set hashtype = "sha256" %}
+{% set hash = "5f1aeda51c229e721d3b925e6466efc5180e638b86324d05a84bf253a81f524f" %}
 
 package:
   name: {{ name }}
@@ -44,3 +44,4 @@ about:
 extra:
   recipe-maintainers:
     - mariusvniekerk
+    - ericdill
