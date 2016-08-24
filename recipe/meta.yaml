@@ -1,7 +1,7 @@
 {% set name = "spylon" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 {% set hashtype = "sha256" %}
-{% set hash = "6882a1ea5d7fb7dc206b96a93d2b386acab964f8a8ecf2441e10a006288bf811" %}
+{% set hash = "b4bffde914eea4d5ac8810b82b0e5578e9f0debd94ff4efcdffcd2b978e2c44e" %}
 
 package:
   name: {{ name }}
