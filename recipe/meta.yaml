@@ -1,7 +1,7 @@
 {% set name = "spylon" %}
 {% set version = "0.2.6" %}
 {% set hashtype = "sha256" %}
-{% set hash = "f974161280219297f4dae4ef4a843d500c34dc0703cc0c4993d82d64c365755b" %}
+{% set hash = "ec07b021ac5af0f0ea169b4bd3946d93f37a433037aded0a57d95021ce2abc44" %}
 
 package:
   name: {{ name }}
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/maxpoint/spylon/archive/{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   {{ hashtype }}: {{ hash }}
 
 build:
