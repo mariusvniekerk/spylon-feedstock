@@ -1,7 +1,7 @@
 {% set name = "spylon" %}
-{% set version = "0.2.8" %}
+{% set version = "0.2.9" %}
 {% set hashtype = "sha256" %}
-{% set hash = "95a091f212ae8d029ef908d136a5a94d36d88828d4c5f3d652bd0b5f0004df1c" %}
+{% set hash = "60ba1e96d374d21bb3d6d2e14380c02d472ecfb5a43b2ee51e57bef96ef25ca0" %}
 
 package:
   name: {{ name }}
@@ -27,7 +27,6 @@ requirements:
   run:
     - python
     - findspark
-    - pandas
     - pyyaml
 
 test:
