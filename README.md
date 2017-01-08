@@ -11,6 +11,18 @@ Summary: Utilities to work with Scala/Java code with py4j
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/spylon-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/spylon-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/spylon-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/spylon-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/spylon-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/spylon-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spylon/badges/version.svg)](https://anaconda.org/conda-forge/spylon)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spylon/badges/downloads.svg)](https://anaconda.org/conda-forge/spylon)
+
 Installing spylon
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `spylon` available on your platfor
 ```
 conda search spylon --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/spylon-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/spylon-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/spylon-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/spylon-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/spylon-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/spylon-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spylon/badges/version.svg)](https://anaconda.org/conda-forge/spylon)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/spylon/badges/downloads.svg)](https://anaconda.org/conda-forge/spylon)
 
 
 Updating spylon-feedstock
